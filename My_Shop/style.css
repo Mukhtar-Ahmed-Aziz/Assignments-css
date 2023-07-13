@@ -1,0 +1,52 @@
+ /* Reset default margin and padding */
+ body, h1, h2, p, ul, li {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 80%;
+  }
+
+  body{
+    background-color: #c59c9c;
+  }
+
+  /* Styling for the navigation bar */
+  nav {
+    background-color: #570505;
+    height: 50px;
+
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav li {
+    font-size: 18px;
+}
+nav ul li a {
+    /* text-align: center; */
+    /* justify-items: center; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    padding: 70px;
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    padding-top: 30px;
+}
+
+.content{
+    text-align: center;
+    background-color: #690707;
+    color: white;
+    height: 900px;
+    /* padding-bottom: 30px; */
+
+}
